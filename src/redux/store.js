@@ -4,7 +4,7 @@ import todoReducer from "./todoSlice"; // Importation du reducer
 // Création du store Redux
 const store = configureStore({
     reducer: {
-    todos: todoReducer, // Associe le reducer des tâches
+        todos: todoReducer, // Associe le reducer des tâches
     },
-    });
-    export default store;
+});
+export default store;
